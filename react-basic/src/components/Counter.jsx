@@ -33,7 +33,7 @@ export class Counter extends React.Component {
   render() {
     return (
       <div>
-        <h1 onClick={() => this.setState({ name: "CrioDo" })}>
+        <h1 onClick={() => this.setState({ name: "crio" })}>
           {this.state.name}
         </h1>
         <h2>{this.state.count}</h2>
